@@ -47,7 +47,7 @@ To use the Business Card OCR GUI, using a command tool, run the following with n
 
 * Simply enter the document text, select "Parse Card", and it will parse the information.
 
-![Screenshot](../img/demo.PNG)
+![Screenshot](/img/demo.PNG)
 
 To use just the command line tool, pass in a text file path containing the business card information as the first argument:
 

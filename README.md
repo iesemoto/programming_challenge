@@ -47,11 +47,11 @@ To use the Business Card OCR GUI, using a command tool, run the following with n
 
 * Simply enter the document text, select "Parse Card", and it will parse the information.
 
-![Screenshot](../src/main/img/demo.PNG)
+![Screenshot](../img/demo.PNG)
 
 To use just the command line tool, pass in a text file path containing the business card information as the first argument:
 
-> java -jar programming_challenge.jar  "..\testDir\testFile.txt"
+> java -jar programming_challenge.jar  "\testDir\testFile.txt"
 
 You may also use sample test files. There are test text files in the testFiles Folder similar to the input documents in the programming challenge example. 
 

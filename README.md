@@ -55,7 +55,7 @@ To use just the command line tool, pass in a text file path containing the busin
 
 You may also use sample test files. There are test text files in the testFiles Folder similar to the input documents in the programming challenge example. 
 
-
+    java -jar programming_challenge.jar testFiles\example_1.txt
 
 
 

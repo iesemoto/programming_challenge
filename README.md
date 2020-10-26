@@ -43,7 +43,7 @@ Disclaimer: You may only test input one business card information at a time.
 
 To use the Business Card OCR GUI, using a command tool, run the following with no arguments:
 
-> java -jar programming_challenge.jar 
+    java -jar programming_challenge.jar 
 
 * Simply enter the document text, select "Parse Card", and it will parse the information.
 
@@ -51,11 +51,11 @@ To use the Business Card OCR GUI, using a command tool, run the following with n
 
 To use just the command line tool, pass in a text file path containing the business card information as the first argument:
 
-> java -jar programming_challenge.jar  "\testDir\testFile.txt"
+    java -jar programming_challenge.jar  "\testDir\testFile.txt"
 
 You may also use sample test files. There are test text files in the testFiles Folder similar to the input documents in the programming challenge example. 
 
-
+java -jar programming_challenge.jar  "\test\testFile.txt"
 
 
 

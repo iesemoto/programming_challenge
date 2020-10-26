@@ -24,6 +24,12 @@ BusinessCardParser
 
     ContactInfo getContactInfo(String document)
 
+## Java Version
+Oracle JDK 15
+
+Source: https://www.oracle.com/java/technologies/javase-jdk15-downloads.html
+
+
 ## Build / Run
 Clone the repository
 > $ git clone https://github.com/iesemoto/Programming_Challenge.git
@@ -31,7 +37,7 @@ Clone the repository
 ## Getting Started / Testing
 There are two ways to parse a Business card text input: 
 1. Business Card OCR GUI, or
-2. a command line tool
+2. A command line tool
 
 Disclaimer: You may only test input one business card information at a time.
 
@@ -40,7 +46,8 @@ To use the Business Card OCR GUI, using a command tool, run the following with n
 > java -jar programming_challenge.jar 
 
 * Simply enter the document text, select "Parse Card", and it will parse the information.
-![Screenshot](src\main\img\demo.PNG)
+
+![Screenshot](\src\main\img\demo.PNG)
 
 To use just the command line tool, pass in a text file path containing the business card information as the first argument:
 

@@ -38,7 +38,7 @@ public class BusinessCardParser {
 
     public static void main(String[] args) {
         // If no input test file, open the GUI
-        if (args.length > 0) {
+        if (args.length == 0) {
             createAndShowGUI(true);
         } else {
             // Get file path
